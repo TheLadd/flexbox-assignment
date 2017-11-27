@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-daddy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+[class^="box"] {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    height: 24.5%;
+    padding: 20px;
+}
+
+.box01 {
+    width: 99.5%;
+}
+
+.box02,
+.box03 {
+    width: 49.5%;
+}
+
+.box04,
+.box05,
+.box06,
+.box06,
+.box07 {
+    width: 24.5%;
+}
+
+.box08,
+.box09,
+.box10 {
+    width: 32.8%;
+}
